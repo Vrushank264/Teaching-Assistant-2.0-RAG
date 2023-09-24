@@ -8,3 +8,13 @@
 ### Architecture:
 
 ![](Architecture.png)
+
+### Screenshots:
+
+- I uploaded one of our Cloud Computing lectures which was about common terminologies used in Cloud Computing.
+
+![](screenshots/upload_video_screen.png)
+
+- Chat interface:
+
+![](screenshots/chat_interface.png)
