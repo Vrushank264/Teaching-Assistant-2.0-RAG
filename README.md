@@ -1,23 +1,10 @@
-# cloud-project
+# Teaching Assistant 2.0 using WizardLM 
 
-- Steps:
+- Upload any video and chat with its content.
+- This implementation only uses opensource models and tools.
+- Microservices hosted on the AWS and GPU services (`embedding generation` and `LLM inference`) are hosted on [Lambda labs](https://lambdalabs.com).
+- This project uses `instructor-xl` model for embedding db generation and `WizardLM` LLM for chat.
 
-    Data Processing (if mp3):
+### Architecture:
 
-        1. Get transcripts (AWS Transcribe directly gives .srt files.)
-        2. Convert those srt files into chunks of 5 minutes using `process_srt.py`.
-    
-    VectorDB Generation:
-
-        1. run `embedding/embed.py`
-    
-    Inference:
-
-        1. Run `infer.py`
-
-
-- TODOs:
-
-1. Add S3 output bucket names in lambda/mp3.py
-2. Create a similar lambda to convert srt files into 5 minute chunks.
-
+![](Architecture.png)
