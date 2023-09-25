@@ -18,3 +18,7 @@
 - Chat interface:
 
 ![](screenshots/chat_interface.png)
+
+### Acknowledgement:
+
+- Thank you [Keshav](https://github.com/keshavsharma25) for helping out with frontend and designing.:relaxed:
